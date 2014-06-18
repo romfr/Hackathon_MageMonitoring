@@ -125,7 +125,7 @@ class Hackathon_MageMonitoring_Model_Widget_System_Abstract extends Hackathon_Ma
     public function getMagentoInfo($value)
     {
         if (is_null($this->_mageInfo)) {
-            $this->_mageInfo['version'] = Mage::getVersion() . ' ' . Mage::getEdition() . ' Edition';
+            $this->_mageInfo['version'] = Mage::getVersion() . ' CE Edition';
             $statInfo = $this->getMagentoStatInfo();
             if (!is_null($statInfo)) {
                 $this->_mageInfo = array_merge($this->_mageInfo, $statInfo);
