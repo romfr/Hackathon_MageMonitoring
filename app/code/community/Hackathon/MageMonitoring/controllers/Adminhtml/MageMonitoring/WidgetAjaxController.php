@@ -23,9 +23,8 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
-class Hackathon_MageMonitoring_Adminhtml_WidgetAjaxController extends Mage_Adminhtml_Controller_Action
+class Hackathon_MageMonitoring_Adminhtml_MageMonitoring_WidgetAjaxController extends Mage_Adminhtml_Controller_Action
 {
-
     // ajax refresh
     public function refreshWidgetAction()
     {

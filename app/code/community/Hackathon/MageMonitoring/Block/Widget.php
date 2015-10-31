@@ -136,7 +136,7 @@ class Hackathon_MageMonitoring_Block_Widget extends Mage_Core_Block_Template
      */
     public function getConfigUrl()
     {
-        return Mage::helper('magemonitoring')->getWidgetUrl('*/widgetAjax/getWidgetConf', $this->_getWidget());
+        return Mage::helper('magemonitoring')->getWidgetUrl('*/mageMonitoring_widgetAjax/getWidgetConf', $this->_getWidget());
     }
 
     /**
@@ -144,7 +144,7 @@ class Hackathon_MageMonitoring_Block_Widget extends Mage_Core_Block_Template
      */
     public function getCallbackUrl()
     {
-        return Mage::helper('magemonitoring')->getWidgetUrl('*/widgetAjax/execCallback', $this->_getWidget());
+        return Mage::helper('magemonitoring')->getWidgetUrl('*/mageMonitoring_widgetAjax/execCallback', $this->_getWidget());
     }
 
     /**
@@ -152,7 +152,7 @@ class Hackathon_MageMonitoring_Block_Widget extends Mage_Core_Block_Template
      */
     public function getRefreshUrl()
     {
-        return Mage::helper('magemonitoring')->getWidgetUrl('*/widgetAjax/refreshWidget', $this->_getWidget());
+        return Mage::helper('magemonitoring')->getWidgetUrl('*/mageMonitoring_widgetAjax/refreshWidget', $this->_getWidget());
     }
 
 }

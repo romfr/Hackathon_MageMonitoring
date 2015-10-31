@@ -124,12 +124,12 @@ class Hackathon_MageMonitoring_Block_Tab_Config extends Mage_Adminhtml_Block_Tem
      */
     public function getSaveUrl()
     {
-        return $this->getUrl('*/widgetAjax/saveTabConfig');
+        return $this->getUrl('*/mageMonitoring_widgetAjax/saveTabConfig');
     }
 
     public function getEditWidgetConfigFormUrl()
     {
-        return $this->getUrl('*/widgetAjax/getWidgetConfigForm');
+        return $this->getUrl('*/mageMonitoring_widgetAjax/getWidgetConfigForm');
     }
 
     /**
